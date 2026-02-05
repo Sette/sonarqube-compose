@@ -8,14 +8,9 @@ Uma breve descrição do que seu projeto faz.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/sette/sonarqube-compose.git
    ```
-2. Instale as dependências:
-   ```bash
-   # ajuste conforme a stack
-   npm install
-   ```
-3. (Opcional) Configure as variáveis de ambiente.
+
 
 ## 🚀 Uso
 
