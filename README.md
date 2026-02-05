@@ -19,7 +19,17 @@ Uma breve descrição do que seu projeto faz.
 
 ## 🚀 Uso
 
-Explique como rodar seu projeto localmente.
+Para rodar e acompanhar no terminal:
+
+```bash
+   docker compose up 
+```
+
+Para rodar em segundo plano:
+
+```bash
+   docker compose up -d
+```
 
 ## ✅ Análise de Qualidade com SonarQube
 
