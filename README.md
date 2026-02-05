@@ -1,7 +1,5 @@
 # Sonarqube compose file
 
-# Nome do Projeto
-
 Uma breve descrição do que seu projeto faz.
 
 ## 📦 Instalação
