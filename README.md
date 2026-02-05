@@ -35,6 +35,13 @@ Este projeto utiliza o **SonarQube** para garantir padrões elevados de qualidad
 ### Como rodar a análise local
 
 1. Garanta que o [SonarQube](https://www.sonarqube.org/downloads/) esteja rodando localmente ou use sua instância cloud.
+
+   # Opção 1: Criar arquivo .env na raiz do projeto
+   echo "SONAR_TOKEN=seu_token_aqui" > .env
+
+   # Opção 2: Export direto no terminal
+   export SONAR_TOKEN=seu_token_aqui
+
 2. Execute o scanner, por exemplo:
    ```bash
    # Exemplo para projetos Node.js
@@ -42,8 +49,7 @@ Este projeto utiliza o **SonarQube** para garantir padrões elevados de qualidad
     -Dsonar.projectKey=nome-do-projeto \
     -Dsonar.sources=. \
     -Dsonar.host.url=http://localhost:9000 \
-    -Dsonar.login=YOUR_TOKEN \
-    -Dsonar.language=py \
+    -Dsonar.login=${SONAR_TOKEN} \
     -Dsonar.python.version=3.11
    ```
 3. Veja os resultados no painel do SonarQube.
