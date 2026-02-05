@@ -7,10 +7,14 @@ Uma breve descrição do que seu projeto faz.
 ## 📦 Instalação
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/sette/sonarqube-compose.git
-   ```
+```bash
+git clone https://github.com/sette/sonarqube-compose.git
+```
 
+1.1 Entre no projeto:
+```bash
+cd sonarqube-compose
+```
 
 ## 🚀 Uso
 
